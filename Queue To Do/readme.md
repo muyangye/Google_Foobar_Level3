@@ -5,13 +5,13 @@ You're almost ready to make your move to destroy the LAMBCHOP doomsday device, b
 
 To trick the system, you'll need to write a program to return the same security checksum that the bunny trainers would have after they would have checked all the workers through. Fortunately, Commander Lambda's desire for efficiency won't allow for hours-long lines, so the trainers at the checkpoint have found ways to quicken the pass-through rate. Instead of checking each and every worker coming through, the bunny trainers instead go over everyone in line while noting their worker IDs, then allow the line to fill back up. Once they've done that they go over the line again, this time leaving off the last worker. They continue doing this, leaving off one more worker from the line each time but recording the worker IDs of those they do check, until they skip the entire line, at which point they XOR the IDs of all the workers they noted into a checksum and then take off for lunch. Fortunately, the workers' orderly nature causes them to always line up in numerical order without any gaps.
 
-For example, if the first worker in line has ID 0 and the security checkpoint line holds three workers, the process would look like this:
+For example, if the first worker in line has ID 0 and the security checkpoint line holds three workers, the process would look like this: <br />
 0 1 2 / <br />
 3 4 / 5 <br />
 6 / 7 8 <br />
 where the trainers' XOR (^) checksum is 0^1^2^3^4^6 == 2.
 
-Likewise, if the first worker has ID 17 and the checkpoint holds four workers, the process would look like:
+Likewise, if the first worker has ID 17 and the checkpoint holds four workers, the process would look like: <br />
 17 18 19 20 / <br />
 21 22 23 / 24 <br />
 25 26 / 27 28 <br />
