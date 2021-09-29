@@ -49,22 +49,22 @@ Note that it may also be run against hidden test cases not shown here.
 Input: <br />
 Solution.solution(3) <br />
 Output: <br />
-    1
+&emsp; 1
 
 Input: <br />
 Solution.solution(200) <br />
 Output: <br />
-    487067745
+&emsp; 487067745
 
 -- Python cases --
 Input: <br />
 solution.solution(200) <br />
 Output: <br />
-    487067745
+&emsp; 487067745
 
 Input: <br />
 solution.solution(3) <br />
 Output: <br />
-    1
+&emsp; 1
 
 Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
