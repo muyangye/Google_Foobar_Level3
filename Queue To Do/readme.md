@@ -37,22 +37,22 @@ Note that it may also be run against hidden test cases not shown here.
 Input:<br />
 Solution.solution(0, 3)<br />
 Output:<br />
-&emsp; 2
+&emsp;&emsp;2
 
 Input:<br />
 Solution.solution(17, 4)<br />
 Output:<br />
-&emsp; 14
+&emsp;&emsp;14
 
 -- Python cases --
 Input:<br />
 solution.solution(0, 3)<br />
 Output:<br />
-&emsp; 2
+&emsp;&emsp;2
 
 Input:<br />
 solution.solution(17, 4)<br />
 Output:<br />
-&emsp; 14
+&emsp;&emsp;14
 
 Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
