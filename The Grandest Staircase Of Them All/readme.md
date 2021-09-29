@@ -45,7 +45,7 @@ Test cases
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
--- Java cases --
+-- Java cases --<br />
 Input:<br />
 Solution.solution(3)<br />
 Output:<br />
@@ -56,7 +56,7 @@ Solution.solution(200)<br />
 Output:<br />
 &emsp;&emsp;487067745
 
--- Python cases --
+-- Python cases --<br />
 Input:<br />
 solution.solution(200)<br />
 Output:<br />

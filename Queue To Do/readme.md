@@ -33,7 +33,7 @@ Test cases
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
--- Java cases --
+-- Java cases --<br />
 Input:<br />
 Solution.solution(0, 3)<br />
 Output:<br />
@@ -44,7 +44,7 @@ Solution.solution(17, 4)<br />
 Output:<br />
 &emsp;&emsp;14
 
--- Python cases --
+-- Python cases --<br />
 Input:<br />
 solution.solution(0, 3)<br />
 Output:<br />
