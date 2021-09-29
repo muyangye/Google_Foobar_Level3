@@ -8,28 +8,28 @@ Lambda has given you an overview of the types of bricks available, plus a budget
 Each type of staircase should consist of 2 or more steps.  No two steps are allowed to be at the same height - each step must be lower than the previous one. All steps must contain at least one brick. A step's height is classified as the total amount of bricks that make up that step.
 For example, when N = 3, you have only 1 choice of how to build the staircase, with the first step having a height of 2 and the second step having a height of 1: (# indicates a brick)
 
-&#35;
-&#35;&#35;
+&#35;<br />
+&#35;&#35;<br />
 21
 
 When N = 4, you still only have 1 staircase choice:
 
-&#35;
-&#35;
-&#35;&#35;
+&#35;<br />
+&#35;<br />
+&#35;&#35;<br />
 31
  
 But when N = 5, there are two ways you can build a staircase from the given bricks. The two staircases can have heights (4, 1) or (3, 2), as shown below:
 
-&#35;
-&#35;
-&#35;
-&#35;&#35;
+&#35;<br />
+&#35;<br />
+&#35;<br />
+&#35;&#35;<br />
 41
 
-&#35;
-&#35;&#35;
-&#35;&#35;
+&#35;<br />
+&#35;&#35;<br />
+&#35;&#35;<br />
 32
 
 Write a function called solution(n) that takes a positive integer n and returns the number of different staircases that can be built from exactly n bricks. n will always be at least 3 (so you can have a staircase at all), but no more than 200, because Commander Lambda's not made of money!
@@ -46,25 +46,25 @@ Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
 -- Java cases --
-Input: <br />
-Solution.solution(3) <br />
-Output: <br />
-&emsp; 1
+Input:<br />
+Solution.solution(3)<br />
+Output:<br />
+&emsp;&emsp;1
 
-Input: <br />
-Solution.solution(200) <br />
-Output: <br />
-&emsp; 487067745
+Input:<br />
+Solution.solution(200)<br />
+Output:<br />
+&emsp;&emsp;487067745
 
 -- Python cases --
-Input: <br />
-solution.solution(200) <br />
-Output: <br />
-&emsp; 487067745
+Input:<br />
+solution.solution(200)<br />
+Output:<br />
+&emsp;&emsp;487067745
 
-Input: <br />
-solution.solution(3) <br />
-Output: <br />
-&emsp; 1
+Input:<br />
+solution.solution(3)<br />
+Output:<br />
+&emsp;&emsp;1
 
 Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
