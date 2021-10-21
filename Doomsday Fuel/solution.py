@@ -1,7 +1,7 @@
 # I studied AI at high school and recognized this is similar to MDP
 # But MDP has rewards all those stuffs. I got my solution from a youtube playlist:
 # https://www.youtube.com/watch?v=uvYTGEZQTEs&list=PLANMHOrJaFxPMQCMYcYqwOCYlreFswAKP
-# This is a Absorbing Markov Chain with a limiting matrix because
+# This is an Absorbing Markov Chain with a limiting matrix because
 # we are guranteed that there's a path from non-absorbing(normal) states to terminal states
 # I did nothing but simply learned and implemented it. We can view terminal states as absorbing states
 # because when we enter a terminal state, the only state we can go is itself (probability 1).
